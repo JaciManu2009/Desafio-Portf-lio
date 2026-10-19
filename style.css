@@ -1,0 +1,97 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #d5dee0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.perfil-container {
+    text-align: center;
+    width: auto;
+    max-width: 1200px;
+}
+
+.alguns-projetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.jogo-projeto {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #737373;
+    border-radius: 4px;
+    padding: 20px;
+    background: transparent;
+    width: 250px;
+}
+
+.imagem-projeto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 15px 0;
+}
+
+.foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.nome {
+    font-weight: lighter;
+    color:#800707;
+    margin-bottom: 5px;
+}
+
+.cargo {
+    color: #062d5e;
+    margin-bottom: 20px;
+}
+
+.grupo-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.botao-link {
+    padding: 10px;
+    border: 1px solid #d3cbcb;
+    border-radius: 8px;
+    background: #f0ebeb;
+    color: #404040;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botao-retornar {
+    color: #4d2d0f;
+    text-decoration: none;
+}
+
+.botao-link:hover {
+    background: #fdfdfd;
+}
+
+.redes-sociais a {
+    color: #3f3d3d;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #573d20;
+}
